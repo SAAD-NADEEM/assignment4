@@ -6,7 +6,7 @@ function Checkout() {
     
     const router = useRouter()
 
-    const handleSubmit = (e:any) => {
+    const handleSubmit = (e:React.FormEvent) => {
         e.preventDefault()
         router.push("/thank-you")
     }

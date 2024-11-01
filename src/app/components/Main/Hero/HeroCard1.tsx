@@ -2,7 +2,7 @@
 
 function HeroCard1() {
 
-    let texts = ["Post your Ad for Free in 3 Easy Steps",
+    const texts = ["Post your Ad for Free in 3 Easy Steps",
         "Get Genuine offers from Verified Buyers",
         "Sell your car Fast at the Best Price"]
 

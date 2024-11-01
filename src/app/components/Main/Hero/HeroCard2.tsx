@@ -2,7 +2,7 @@
 
 function HeroCard2() {
 
-    let texts = ["Dedicated Sales Expert to Sell your Car",
+    const texts = ["Dedicated Sales Expert to Sell your Car",
                  "We Bargain for you and share the Best Offer",
                  "We ensure Safe & Secure Transaction"   
                 ]
