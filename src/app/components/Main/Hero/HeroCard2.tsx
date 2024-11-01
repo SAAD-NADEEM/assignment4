@@ -11,8 +11,8 @@ function HeroCard2() {
         <section className="h-full w-full">
             <h3 className="text-[#233d7b] p-2 text-xl font-extrabold">Post your Ad on PakWheels</h3>
             <ul className="text-black p-2 text-sm">
-                {texts.map((text) => (
-                    <li className="py-1 flex gap-2">
+                {texts.map((text, index) => (
+                    <li key={index} className="py-1 flex gap-2">
                         <div className="h-4 w-4">
                             <img src="/tick.svg" alt="tick" className="h-full w-full" />
                         </div>
